@@ -11,4 +11,14 @@ class BlogShowController extends Controller
     {
         return view('blog.index');
     }
+
+    public function articlesPage()
+    {
+        return view('blog.articles');
+    }
+
+    public function singleArticlePage()
+    {
+        return view('blog.single-article');
+    }
 }

@@ -9,6 +9,17 @@ class MainController extends Controller
 {
     public function indexPage()
     {
-        return view('monitor');
+        return view('dashboard.main');
     }
+
+    public function widgetsPage()
+    {
+        return view('dashboard.widgets');
+    }
+
+    public function chartsPage()
+    {
+        return view('dashboard.charts');
+    }
+
 }
